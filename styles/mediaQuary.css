@@ -1,0 +1,17 @@
+@media (max-width: 48rem) {
+  #navbar {
+    display: none;
+  }
+
+  .menu-button {
+    display: flex;
+  }
+
+  #ul-articles {
+    grid-template-columns: 100%;
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+  }
+}

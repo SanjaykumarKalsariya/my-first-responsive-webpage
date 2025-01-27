@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="./styles/shared.css" />
+    <link rel="stylesheet" href="./styles/contact-us.css" />
+    <link rel="stylesheet" href="./styles/mediaQuary.css" />
+  </head>
+  <body>
+    <!-- <h1>Jay SwamiNarayan!</h1> -->
+    <header id="main-header">
+      <a href="./" id="logo">WebFood</a>
+      <nav id="navbar">
+        <ul>
+          <li>
+            <a href="./">Browse Food</a>
+          </li>
+          <li>
+            <a href="./order.html">Order</a>
+          </li>
+          <li>
+            <a href="./contact-us.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <a href="#sidebar" class="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </header>
+
+    <main>
+      <form action="/" id="form-contact-us">
+        <header id="form-header">
+          <h1>Contact Us</h1>
+        </header>
+
+        <section id="contact-info">
+          <h3>How can we help you?</h3>
+          <ul>
+            <li>
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required />
+            </li>
+            <li>
+              <label for="email">Your Email Address</label>
+              <input type="email" id="email" name="email" />
+            </li>
+            <li>
+              <label for="phone-number">Your Phone Number</label>
+              <input type="number" id="phone-number" name="phone-number" />
+            </li>
+            <li>
+              <label for="message">Your Message</label>
+              <textarea name="message" id="message" rows="4"></textarea>
+            </li>
+            <li>
+              <label for="how-find-us?">How did you find us?</label>
+              <select name="how-find-us?" id="how-find-us?">
+                <option value="">Web Search</option>
+                <option value="">Social Media</option>
+              </select>
+            </li>
+          </ul>
+        </section>
+
+        <section id="reply-options">
+          <h3>How should we reply?</h3>
+
+          <div class="radio-flex">
+            <input type="radio" name="reply-option" id="call-me" />
+            <label for="call-me">Call me</label>
+          </div>
+          <div class="radio-flex">
+            <input type="radio" name="reply-option" id="send-me-email" />
+            <label for="send-me-email">Send me an email</label>
+          </div>
+
+          <div class="radio-flex">
+            <input type="radio" name="reply-option" id="dont-reply" />
+            <label for="dont-reply">Don't reply</label>
+          </div>
+        </section>
+
+        <section id="terms">
+          <input type="checkbox" name="terms" id="terms" />
+          <label>Accept terms</label>
+        </section>
+
+        <section id="button">
+          <button type="submit">Submit</button>
+          <button type="reset">Clear</button>
+        </section>
+      </form>
+    </main>
+
+    <aside id="sidebar">
+      <header id="sidebar-header">
+        <a href="#" class="menu-button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </header>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="./">Browse Food</a>
+          </li>
+          <li>
+            <a href="./order.html">Order</a>
+          </li>
+          <li>
+            <a href="./contact-us.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <footer></footer>
+  </body>
+</html>
